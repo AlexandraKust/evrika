@@ -1,3 +1,21 @@
+// мобильное меню
+const menuBurger = document.querySelector('.header__burger');
+if (menuBurger) {
+	const menuBody = document.querySelector('.navmenu');
+	const headerPhone = document.querySelector('.header__phone');
+	const headerBtns = document.querySelector('.header__btns');
+
+	menuBurger.addEventListener("click", function (e) {
+		menuBurger.classList.toggle('active');
+		menuBody.classList.toggle('active');
+		headerPhone.classList.toggle('active');
+		headerBtns.classList.toggle('active');
+		document.body.classList.toggle('lock');
+	});
+
+}
+
+
 // галочка в согласие
 const check = document.querySelector('.form__checkbox');
 const agree = document.querySelector('.form__agree');
@@ -49,9 +67,9 @@ const certificates = new Swiper('.certificates__container', {
 const partners = new Swiper('.partners__container', {
 	loop: false,
 	speed: 800,
-	spaceBetween: 30,
+	spaceBetween: 100,
 	centeredSlides: false,
-	slidesPerView: 4,
+	// slidesPerView: 4,
 	simulateTouch: true,
 	touchRatio: 1,
 
@@ -67,7 +85,14 @@ const partners = new Swiper('.partners__container', {
 		el: '.partners__pagination',
 		clickable: true,
 	},
-
+	breakpoints: {
+		600: {
+			slidesPerView: 2,
+		},
+		990: {
+			slidesPerView: 3,
+		},
+	},
 });
 
 //feedback swiper
@@ -91,6 +116,12 @@ const feedback = new Swiper('.feedback__container', {
 	navigation: {
 		nextEl: '.feedback__swiper-arrow-next',
 		prevEl: '.feedback__swiper-arrow-prev',
+	},
+
+	breakpoints: {
+		485: {
+			slidesPerView: 1,
+		},
 	},
 
 });

@@ -30,15 +30,21 @@
                         </svg>
                         <p class="header__number">8 (495) 127-82-80</p>
                     </div>
-                    <button class="header__button">Напишите нам</button>
-                    <button class="header__button">
-                        <svg width="13" height="15" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M8 8C8.79113 8 9.56448 7.76541 10.2223 7.32588C10.8801 6.88635 11.3928 6.26164 11.6955 5.53074C11.9983 4.79983 12.0775 3.99556 11.9231 3.21964C11.7688 2.44372 11.3878 1.73098 10.8284 1.17157C10.269 0.612165 9.55629 0.231202 8.78036 0.0768607C8.00444 -0.0774802 7.20017 0.00173312 6.46927 0.304484C5.73836 0.607234 5.11365 1.11992 4.67412 1.77772C4.2346 2.43552 4 3.20888 4 4C4 5.06087 4.42143 6.07828 5.17157 6.82843C5.92172 7.57857 6.93913 8 8 8ZM15.71 14.2C13.6631 12.1592 10.8905 11.0132 8 11.0132C5.10952 11.0132 2.33695 12.1592 0.29 14.2L0 14.5V19H16V14.5L15.71 14.2Z"
-                                fill="white" />
-                        </svg>
-                        Личный кабинет
-                    </button>
+                    <div class="header__btns">
+                        <button class="header__button">Напишите нам</button>
+                        <button class="header__button">
+                            <svg width="13" height="15" viewBox="0 0 16 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8 8C8.79113 8 9.56448 7.76541 10.2223 7.32588C10.8801 6.88635 11.3928 6.26164 11.6955 5.53074C11.9983 4.79983 12.0775 3.99556 11.9231 3.21964C11.7688 2.44372 11.3878 1.73098 10.8284 1.17157C10.269 0.612165 9.55629 0.231202 8.78036 0.0768607C8.00444 -0.0774802 7.20017 0.00173312 6.46927 0.304484C5.73836 0.607234 5.11365 1.11992 4.67412 1.77772C4.2346 2.43552 4 3.20888 4 4C4 5.06087 4.42143 6.07828 5.17157 6.82843C5.92172 7.57857 6.93913 8 8 8ZM15.71 14.2C13.6631 12.1592 10.8905 11.0132 8 11.0132C5.10952 11.0132 2.33695 12.1592 0.29 14.2L0 14.5V19H16V14.5L15.71 14.2Z"
+                                    fill="white" />
+                            </svg>
+                            Личный кабинет
+                        </button>
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
                 </div>
             </div>
             <nav class="navmenu">
@@ -136,97 +142,100 @@
                 <div class="container">
                     <h2 class="price__title">Стоимость топлива</h2>
 
-                    <table class="price__table">
-                        <thead class="price__thead">
-                            <tr>
-                                <th>Сорт топлива</th>
-                                <th>Экологический класс</th>
-                                <th>Производитель</th>
-                                <th>Наличный расчет</th>
-                                <th>Безналичный расчет</th>
-                            </tr>
-                        </thead>
-                    </table>
-                    <table class="price__table">
-                        <tbody class="price__tbody">
-                            <tr>
-                                <td rowspan="5">дт</td>
-                                <td rowspan="3" class="uppercase">евро-5</td>
-                                <td class="price__name">Газпромнефть</td>
-                                <td>45.43 р.</td>
-                                <td>44.43 р.</td>
-                            </tr>
-                            <tr>
-                                <td class="price__name">Лукойл</td>
-                                <td>45.16 р.</td>
-                                <td>43.98 р.</td>
-                            </tr>
-                            <tr>
-                                <td class="price__name">Роснефть</td>
-                                <td>42.34 р.</td>
-                                <td>41.64 р.</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="2" class="uppercase">евро-4</td>
-                                <td class="price__name">Газпромнефть</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                            <tr>
-                                <td class="price__name">Лукойл</td>
-                                <td>41.16 р.</td>
-                                <td>40.67 р.</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <table class="price__table">
-                        <tbody class="price__tbody">
-                            <tr>
-                                <td rowspan="8">аи-95</td>
-                                <td rowspan="3" class="uppercase">евро-5</td>
-                                <td class="price__name">Газпромнефть</td>
-                                <td>45.43 р.</td>
-                                <td>44.43 р.</td>
-                            </tr>
-                            <tr>
-                                <td class="price__name">Лукойл</td>
-                                <td>45.16 р.</td>
-                                <td>43.98 р.</td>
-                            </tr>
-                            <tr>
-                                <td class="price__name">Роснефть</td>
-                                <td>42.34 р.</td>
-                                <td>41.64 р.</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="2" class="uppercase">евро-4</td>
-                                <td>Газпромнефть</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                            <tr>
-                                <td class="price__name">Лукойл</td>
-                                <td>41.16 р.</td>
-                                <td>40.67 р.</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="3" class="uppercase">евро-3</td>
-                                <td class="price__name">Роснефть</td>
-                                <td>42.34 р.</td>
-                                <td>41.64 р.</td>
-                            </tr>
-                            <tr>
-                                <td class="price__name">Газпромнефть</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                            <tr>
-                                <td class="price__name">Лукойл</td>
-                                <td>45.16 р.</td>
-                                <td>43.98 р.</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="price__content">
+                        <table class="price__table">
+                            <thead class="price__thead">
+                                <tr>
+                                    <th>Сорт топлива</th>
+                                    <th>Экологический класс</th>
+                                    <th>Производитель</th>
+                                    <th>Наличный расчет</th>
+                                    <th>Безналичный расчет</th>
+                                </tr>
+                            </thead>
+                        </table>
+
+                        <table class="price__table">
+                            <tbody class="price__tbody">
+                                <tr>
+                                    <td rowspan="5">дт</td>
+                                    <td rowspan="3" class="uppercase">евро-5</td>
+                                    <td class="price__name">Газпромнефть</td>
+                                    <td>45.43 р.</td>
+                                    <td>44.43 р.</td>
+                                </tr>
+                                <tr>
+                                    <td class="price__name">Лукойл</td>
+                                    <td>45.16 р.</td>
+                                    <td>43.98 р.</td>
+                                </tr>
+                                <tr>
+                                    <td class="price__name">Роснефть</td>
+                                    <td>42.34 р.</td>
+                                    <td>41.64 р.</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" class="uppercase">евро-4</td>
+                                    <td class="price__name">Газпромнефть</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td class="price__name">Лукойл</td>
+                                    <td>41.16 р.</td>
+                                    <td>40.67 р.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="price__table">
+                            <tbody class="price__tbody">
+                                <tr>
+                                    <td rowspan="8">аи-95</td>
+                                    <td rowspan="3" class="uppercase">евро-5</td>
+                                    <td class="price__name">Газпромнефть</td>
+                                    <td>45.43 р.</td>
+                                    <td>44.43 р.</td>
+                                </tr>
+                                <tr>
+                                    <td class="price__name">Лукойл</td>
+                                    <td>45.16 р.</td>
+                                    <td>43.98 р.</td>
+                                </tr>
+                                <tr>
+                                    <td class="price__name">Роснефть</td>
+                                    <td>42.34 р.</td>
+                                    <td>41.64 р.</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" class="uppercase">евро-4</td>
+                                    <td>Газпромнефть</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td class="price__name">Лукойл</td>
+                                    <td>41.16 р.</td>
+                                    <td>40.67 р.</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="3" class="uppercase">евро-3</td>
+                                    <td class="price__name">Роснефть</td>
+                                    <td>42.34 р.</td>
+                                    <td>41.64 р.</td>
+                                </tr>
+                                <tr>
+                                    <td class="price__name">Газпромнефть</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td class="price__name">Лукойл</td>
+                                    <td>45.16 р.</td>
+                                    <td>43.98 р.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
                 </div>
             </section>
@@ -530,17 +539,22 @@
 
             <section class="certificates">
                 <div class="container">
-                    <h2 class="certificates__title">Сертификаты качества топлива</h2>
-                    <div class="certificates__swiper-arrow-prev">
-                        <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8.5 14.6667L1.83333 8.00008L8.5 1.33342" stroke="black" stroke-width="1.8" />
-                        </svg>
+                    <div class="certificates__content">
+                        <h2 class="certificates__title">Сертификаты качества топлива</h2>
+                        <div class="certificates__swiper-arrow-prev">
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.5 14.6667L1.83333 8.00008L8.5 1.33342" stroke="black" stroke-width="1.8" />
+                            </svg>
+                        </div>
+                        <div class="certificates__swiper-arrow-next">
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.5 14.6667L8.16667 8.00008L1.5 1.33342" stroke="black" stroke-width="1.8" />
+                            </svg>
+                        </div>
                     </div>
-                    <div class="certificates__swiper-arrow-next">
-                        <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.5 14.6667L8.16667 8.00008L1.5 1.33342" stroke="black" stroke-width="1.8" />
-                        </svg>
-                    </div>
+
 
                     <div class="swiper-container certificates__container">
                         <div class="swiper-wrapper certificates__wrapper">
@@ -604,17 +618,22 @@
 
             <section class="feedback">
                 <div class="container">
-                    <h2 class="feedback__title">Отзывы</h2>
-                    <div class="feedback__swiper-arrow-prev">
-                        <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8.5 14.6667L1.83333 8.00008L8.5 1.33342" stroke="black" stroke-width="1.8" />
-                        </svg>
+                    <div class="feedback__content">
+                        <h2 class="feedback__title">Отзывы</h2>
+                        <div class="feedback__swiper-arrow-prev">
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.5 14.6667L1.83333 8.00008L8.5 1.33342" stroke="black" stroke-width="1.8" />
+                            </svg>
+                        </div>
+                        <div class="feedback__swiper-arrow-next">
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.5 14.6667L8.16667 8.00008L1.5 1.33342" stroke="black" stroke-width="1.8" />
+                            </svg>
+                        </div>
                     </div>
-                    <div class="feedback__swiper-arrow-next">
-                        <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.5 14.6667L8.16667 8.00008L1.5 1.33342" stroke="black" stroke-width="1.8" />
-                        </svg>
-                    </div>
+
 
                     <div class="swiper-container feedback__container">
                         <div class="swiper-wrapper feedback__wrapper">
@@ -668,7 +687,6 @@
                         <input class="questions__input" type="text" placeholder="Ваше имя">
                         <input class="questions__input" type="text" id="phone-number" placeholder="Номер телефона">
                         <button class="questions__button">Перезвоните мне</button>
-
                     </form>
                     <p class="questions__agree">
                         Нажимая на кнопку «Перезвоните мне» я соглашаюсь с <a href="#" class="questions__link">политикой
