@@ -900,10 +900,12 @@ main {
 		display: none; 
 	}
 	-ms-overflow-style: none;  /* IE и Edge */
-	&__wrapper {
-		padding: 48px 0;
+	&__container {
 		overflow-x: scroll;
 		scrollbar-width: none;
+	}
+	&__wrapper {
+		padding: 48px 0;
 	}
 	&__swiper-arrow-prev, &__swiper-arrow-next {
 		width: 56px;
@@ -967,13 +969,15 @@ main {
 		display: none; 
 	}
 	-ms-overflow-style: none;  /* IE и Edge */
+	&__container {
+		overflow-x: scroll;
+		scrollbar-width: none;
+	}
 	&__wrapper {
 		width: 100%;
 		align-items: center;
 		margin-bottom: 100px;
 		position: relative;
-		overflow-x: scroll;
-		scrollbar-width: none;
 	}
 
 	&__slide {
@@ -1054,11 +1058,13 @@ main {
 		display: none; 
 	}
 	-ms-overflow-style: none;  /* IE и Edge */
-
-	&__wrapper {
-		margin-bottom: 44px;
+	
+	&__container {
 		overflow-x: scroll;
 		scrollbar-width: none;
+	}
+	&__wrapper {
+		margin-bottom: 44px;
 	}
 
 	&__slide {
